@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*CSS Document */
+
+.container {
+	background-color: #CCFFFF;
+	margin: 0 auto;
+	padding: 20px;
+	width: 1300px;
+}
+
+.header {
+	text-align: center;
+	font-family: Futura; 
+	font-weight: bold; 
+	background-color: white;
+	margin: 0 auto;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.navigation {
+	text-align: left;
+	font-family: Futura; 
+	width: 250px;
+	height: 1000px;
+	background-color: white;
+	padding: 10px;
+	float: left;
+	margin-right: 20px;
+}
+
+.container-2 {
+	width: 990px;
+	height: 1000px;
+	font-family: Futura;
+	background-color: white;
+	padding: 10px;
+	margin-left: 290px;
+}
