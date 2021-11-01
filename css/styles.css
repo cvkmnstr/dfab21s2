@@ -22,7 +22,7 @@
 	text-align: left;
 	font-family: Futura; 
 	width: 250px;
-	height: 1000px;
+	height: 800px;
 	background-color: white;
 	padding: 10px;
 	float: left;
@@ -31,9 +31,18 @@
 
 .container-2 {
 	width: 990px;
-	height: 1000px;
+	height: 800px;
 	font-family: Futura;
 	background-color: white;
 	padding: 10px;
 	margin-left: 290px;
+}
+
+.footer {
+	text-align: right;
+	font-family: Futura; 
+	background-color: white;
+	margin: 0 auto;
+	padding: 5px;
+	margin-top: 20px;
 }
