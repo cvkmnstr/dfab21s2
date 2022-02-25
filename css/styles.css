@@ -2,46 +2,78 @@
 /*CSS Document */
 
 .container {
-	background-color: #CCFFFF;
+	background-color: black;
 	margin: 0 auto;
-	padding: 20px;
-	width: 1300px;
+	padding: 0px;
+	width: 100%;
 }
 
 .header {
 	text-align: center;
 	font-family: Futura; 
 	font-weight: bold; 
-	background-color: white;
-	margin: 0 auto;
-	padding: 5px;
-	margin-bottom: 20px;
+	color: white;
+	margin: 0px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.subheader {
+	text-align: center;
+	font-family: Futura; 
+	font-weight: bold; 
+	color: black;
+	margin: 0px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .navigation {
 	text-align: left;
 	font-family: Futura; 
-	width: 250px;
-	height: 800px;
 	background-color: white;
-	padding: 10px;
-	float: left;
-	margin-right: 20px;
+	font-size: 12.8px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
 .container-2 {
-	width: 990px;
-	height: 800px;
+	width: 97%;
 	font-family: Futura;
 	background-color: white;
 	padding: 10px;
-	margin-left: 290px;
+	margin: 10px;
 }
 
 .footer {
 	text-align: right;
 	font-family: Futura; 
-	background-color: white;
+	color: white;
 	margin: 0 auto;
 	padding: 5px;
 	margin-top: 20px;
